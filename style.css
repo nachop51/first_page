@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #b3e4fc;
+  font-family: "Indie Flower", cursive;
+  color: #555;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 10rem auto 0 auto;
+}
+
+.top-container {
+  background-color: #b3e4fc;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 9.375rem;
+  height: 3rem;
+  top: 17rem;
+  left: 30vw;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 9.375rem;
+  height: 3rem;
+  left: 60vw;
+  top: 4.9rem;
+}
+
+.mountain {
+  width: 40%;
+  height: 100%;
+}
+
+.mountain-div {
+  margin-top: 4rem;
+}
+
+.hr-separator {
+  margin-top: 5rem;
+}
+
+.nachop-img {
+  border-radius: 100%;
+  border: solid 1.5px rgb(3, 3, 40);
+  width: 300px;
+  height: 300px;
+}
+
+.gaming-img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.chess-img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.skill-img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.middle-container {
+  margin-top: 5rem;
+}
+
+table {
+  margin: 0 auto 0 auto;
+}
