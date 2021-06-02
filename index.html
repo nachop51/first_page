@@ -7,75 +7,75 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
 
     <title>Nachop's website</title>
   </head>
 
   <body>
     <div class="top-container">
-      <img src="cloud.png" alt="Cloud image" class="top-cloud" />
+      <img src="images/cloud.png" alt="Cloud image" class="top-cloud" />
       <h1>Hi! I'm Nacho</h1>
-      <p>
+      <p class="div__h1_p">
         <b>a <em>web development</em> student.</b>
       </p>
-      <img src="cloud.png" alt="Cloud image" class="bottom-cloud" />
+      <img src="images/cloud.png" alt="Cloud image" class="bottom-cloud" />
     </div>
 
     <div class="mountain-div">
-      <img src="mountain.png" alt="Mountain image" class="mountain" />
+      <img src="images/mountain.png" alt="Mountain image" class="mountain" />
     </div>
 
     <hr class="hr-separator">
 
     <div class="middle-container">
       <div class="profile">
-        <img src="nacho.png" alt="Nachop image" class="nachop-img" />
+        <img src="images/nacho.png" alt="Nachop image" class="nachop-img" />
         <h2>This is me!</h2>
         <p>I'm currently learning web development</p>
         <p>This page is based on HTML and CSS.</p>
       </div>
       <hr />
       <div class="hobbies">
-        <h2>My hobbies.</h2>
+        <h2 id="hobbies__h1">My hobbies.</h2>
         <div class="hobbies-row">
-          <img class="gaming-img" src="gaming.png" alt="Gaming image" />
-          <h3>Videogames</h3>
-          <p>
+          <img id="gaming-img" class="gaming" src="images/gaming.png" alt="Gaming image" />
+          <h3 class="gaming">Videogames</h3>
+          <p class="gaming">
              Usually in my spare time, I like to play video games like CSGO, and many others.
           </p>
         </div>
-        <div class="hobbies-row">
-          <img class="chess-img" src="chess.png" alt="Chess image" />
+        <div class="hobbies-row2">
+          <img class="chess-img" src="images/chess.png" alt="Chess image" />
           <h3>Chess!</h3>
-          <p>
-            I usually play chess, I like to solve some puzzles and play Blitz,
-            its a challenging game and I love it!
-          </p>
+          <p id="hobbies__p">
+            I usually play chess, I like to solve some puzzles and play Blitz, its a challenging game and I love it!
+          </p> 
         </div>
       </div>
       <hr>
       </div>
         <div class="skill-row">
-          <h2>My skills</h2>
-          <img class="skill-img" src="code.png" alt="Skill image">
+          <h2 id="skill__h2">My skills</h2>
+          <img class="skill-img" src="images/code.png" alt="Skill image">
           <h3>Programming</h3>
-          <p>
+          <p id="skill-row__p">
             I'm having so much fun learning programming, is like a new world for me!
           </p>
-          <p>
+          <p id="skill-row__p2">
             These below are a few games that i've developed using HTML, CSS and Javascript!
           </p>
           <table>
-            <tr><td><a target="_blank" href="pingpong.html">Ping pong</a></td></tr>
-            <tr><td><a target="_blank" href="Tetrisgame.html">Tetris game</a></td></tr>
-            <tr><td><a target="_blank" href="snakegame.html">Snake</a></td></tr>
+            <tr><td><a class="btn" target="_blank" href="games/pingpong.html">·Ping pong</a></td></tr>
+            <tr><td><a class="btn" target="_blank" href="games/Tetrisgame.html">·Tetris game</a></td></tr>
+            <tr><td><a class="btn" target="_blank" href="games/snakegame.html">·Snake</a></td></tr>
         </table>
         </div>
       </div>
@@ -86,7 +86,7 @@
           This is my first website, but soon I'll release more!
         </p>
         <h3>Follow me!</h3>
-        <a class="btn" href="mailto:nachoperalta0@gmail.com">CONTACT ME</a>
+        <a class="btn" target="_blank" href="mailto:nachoperalta0@gmail.com">CONTACT ME</a>
       </div>
     </div>
 
