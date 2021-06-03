@@ -1,14 +1,22 @@
+body {
+  background-color: #f0e4d8;
+}
+
+h1 {
+  font-family: "Pattaya", sans-serif;
+  color: #333;
+  font-size: 2rem;
+}
+
 .container {
   display: flex;
 }
-
 
 .grid {
   width: 200px;
   height: 400px;
   display: flex;
-  flex-wrap: wrap;
-  background-color: yellow;
+  background-color: #bfff00;
 }
 
 .grid div {
@@ -20,14 +28,13 @@
   background-color: blue;
 }
 
-
 .mini-grid {
   margin-left: 50px;
   width: 80px;
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: #bfff00;
 }
 
 .mini-grid div {

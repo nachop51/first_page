@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  margin: 50px 0 75px 0;
+  font-family: "Pattaya", sans-serif;
+  background-color: #fffdd0;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+#gameCanvas {
+  border-radius: 7px;
+}
