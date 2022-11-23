@@ -17,6 +17,7 @@ h1 {
   height: 400px;
   display: flex;
   background-color: #bfff00;
+  flex-wrap: wrap;
 }
 
 .grid div {
